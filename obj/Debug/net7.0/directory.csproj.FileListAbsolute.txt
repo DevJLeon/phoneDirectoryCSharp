@@ -1,0 +1,15 @@
+/home/arteN01-041/Documents/joshua Csharp/directory/obj/Debug/net7.0/directory.csproj.AssemblyReference.cache
+/home/arteN01-041/Documents/joshua Csharp/directory/obj/Debug/net7.0/directory.GeneratedMSBuildEditorConfig.editorconfig
+/home/arteN01-041/Documents/joshua Csharp/directory/obj/Debug/net7.0/directory.AssemblyInfoInputs.cache
+/home/arteN01-041/Documents/joshua Csharp/directory/obj/Debug/net7.0/directory.AssemblyInfo.cs
+/home/arteN01-041/Documents/joshua Csharp/directory/obj/Debug/net7.0/directory.csproj.CoreCompileInputs.cache
+/home/arteN01-041/Documents/joshua Csharp/directory/bin/Debug/net7.0/directory
+/home/arteN01-041/Documents/joshua Csharp/directory/bin/Debug/net7.0/directory.deps.json
+/home/arteN01-041/Documents/joshua Csharp/directory/bin/Debug/net7.0/directory.runtimeconfig.json
+/home/arteN01-041/Documents/joshua Csharp/directory/bin/Debug/net7.0/directory.dll
+/home/arteN01-041/Documents/joshua Csharp/directory/bin/Debug/net7.0/directory.pdb
+/home/arteN01-041/Documents/joshua Csharp/directory/obj/Debug/net7.0/directory.dll
+/home/arteN01-041/Documents/joshua Csharp/directory/obj/Debug/net7.0/refint/directory.dll
+/home/arteN01-041/Documents/joshua Csharp/directory/obj/Debug/net7.0/directory.pdb
+/home/arteN01-041/Documents/joshua Csharp/directory/obj/Debug/net7.0/directory.genruntimeconfig.cache
+/home/arteN01-041/Documents/joshua Csharp/directory/obj/Debug/net7.0/ref/directory.dll
