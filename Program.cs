@@ -1,36 +1,40 @@
-﻿﻿using System;
+using System;
+using System.Collections;
 
 class Program {
     static void Main() {
         int opcion;
 
+        ArrayList contactList = new ArrayList();
+
         do {
-            MostrarMenu();
-            opcion = PedirOpcion();
+            ShowOption();
+            opcion = RequestOption();
 
             switch (opcion) {
                 case 1:
                     writeSpace();
-                    Saludar();
+                    //AddContact();
                     break;
                 case 2:
                     writeSpace();
-                    CalcularCuadrado();
+                    //ShowContacts();
                     break;
                 case 3:
                     writeSpace();
-                    CalcularCirculo();
+                    //MarkFavContact();
                     break;
                 case 4:
                     writeSpace();
-                    deleteContact();
+                    //deleteContact();
+                    break;
                 case 5:
                     writeSpace();
                     Console.WriteLine("Hasta luego.");
                     break;
                 default:
                     writeSpace();
-                    Console.WriteLine("Opción inválida. Inténtalo de nuevo.");
+                    Console.WriteLine("Invalid option. Try again.");
                     break;
             }
 
@@ -38,7 +42,7 @@ class Program {
         } while (opcion != 4);
     }
 
-    static void MostrarMenu() {
+    static void ShowOption() {
         Console.WriteLine("Menu Options:");
         Console.WriteLine("1. Add contact");
         Console.WriteLine("2. Display all contacts");
@@ -47,30 +51,21 @@ class Program {
         Console.WriteLine("5. Salir");
     }
 
-    static int PedirOpcion() {
+    static int RequestOption() {
         Console.Write("Elige una opción: ");
         return Convert.ToInt32(Console.ReadLine());
     }
+    
+    static void AddContact(){
+        ArrayList contactArray = new ArrayList();
+        Console.WriteLine("Contact Name: ");
+        string contactName = Console.ReadLine();
 
-    static void Saludar() {
-        Console.WriteLine("¡Hola! ¡Bienvenido!");
-    }
+        Console.WriteLine("Contact Phone number: ");
+        int phoneNumber = int.Parse(Console.ReadLine());
 
-    static void CalcularCuadrado() {
-        Console.Write("Ingresa un número: ");
-        int numero = Convert.ToInt32(Console.ReadLine());
-        int cuadrado = numero * numero;
-        Console.WriteLine($"El cuadrado de {numero} es: {cuadrado}");
-    }
+        contactArray.Add(contactName);
+        contactArray.Add(phoneNumber);
 
-    static void CalcularCirculo() {
-        Console.Write("Ingresa el radio del círculo: ");
-        double radio = Convert.ToDouble(Console.ReadLine());
-        double area = Math.PI * radio * radio;
-        Console.WriteLine($"El área del círculo es: {area}");
+        contactList.Add(contactArray);
     }
-
-    static void writeSpace(){
-        Console.WriteLine("");
-    }
-}
